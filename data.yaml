@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['bottle-can', 'bottle-glass', 'bottle-plastic', 'cap']
+
+roboflow:
+  workspace: deneme-5sose
+  project: can_plastic_glass_bottles_nolabel_clean
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deneme-5sose/can_plastic_glass_bottles_nolabel_clean/dataset/7
